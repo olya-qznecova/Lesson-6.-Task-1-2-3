@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-carousel  {
+    width: 948px;
+    margin: 50px auto;
+}
+.carousel-wrapper {
+    width: 836px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.carousel-items {
+    width: 10000px;
+    position: relative;
+}
+.block {
+    float: left;
+     padding: 5px 6px;
+    position: relative;
+
+}
+.block:hover .add-to {
+    display: block;
+}
+.block:hover .image {
+    filter: brightness(60%);
+}
+.image {
+    display: block;
+    width: 261px;
+    height: 280px;
+    overflow: hidden;
+    border: 2px groove lightgrey;
+    box-shadow: 2px 2px 3px darkseagreen;
+    transition: 0.7s;
+
+}
+
+.add-to {
+    position: absolute;
+    top: 98px;
+    left: 60px;
+    border: 1px solid white;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    display: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;text-decoration: none;
+    transition: 0.7s;
+}
+.add-to:hover {
+    transform: scale(1.1);
+    background-color: darkseagreen;
+
+}
+
+.button-left, .button-right {
+    position: relative;
+    top: 120px;
+    cursor: pointer;
+}
+.button-left {
+    float: left;
+
+}
+.button-right {
+    float: right;
+
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    color: black;
+    transition: 0.5s;
+}
+
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+    color: darkseagreen;
+    transform: scale(1.2);
+}

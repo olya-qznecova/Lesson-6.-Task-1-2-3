@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+    margin: 0;
+}
+
+form {
+    background-color: mintcream;
+    width: 600px;
+    border: 2px outset lightgrey;
+    box-sizing: border-box;
+    padding: 20px 0 40px 30px;
+    margin: 100px auto;
+    box-shadow: 2px 3px 7px 2px rosybrown;
+       }
+input,select {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px white;
+}
+label {
+    color: darkslategrey;
+}
+textarea {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px white;
+}
+
+input,textarea {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+textarea {
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+input,textarea,select:focus {
+    outline: none;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rosybrown;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: rosybrown;
+}
+button:focus {
+    outline: none;
+}
+.error {
+    color: red;
+    border: 1px solid red;
+}
+
+#ui-datepicker-div {
+    background: rosybrown;
+    color: white;
+    }
+#ui-datepicker-div .ui-widget-header {
+    background: white;
+    color: rosybrown;
+}
+
+#ui-datepicker-div .ui-state-default {
+    background: white;
+}

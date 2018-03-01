@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Lesson%206%20-%20task%201,2.css">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="jquery-ui.min.js"></script>
+</head>
+<body>
+
+<form onclick="ButtonSetDefaultValue()" method="post" id="main">
+
+    <label for="name">
+        Ваше имя:<br>
+        <input type="text" id="name" name="name" value="" placeholder="Введите Ваше имя">
+
+    </label><br>
+
+    <label for="datepic">
+        Дата рождения:<br>
+        <input id="datepic" name="birth" value="" placeholder="Выберите дату рождения">
+
+    </label><br>
+
+    <label for="email">
+        Ваш Email:<br>
+        <input type="text" id="email" placeholder="Ваш Email">
+    </label><br>
+
+    <label for="phone">
+        Ваш номер телефона:<br>
+        <input type="text" id="phone" placeholder="Ваш номер телефона">
+    </label><br>
+
+    <label for="city">
+        Выберите город:<br>
+        <select name="your-city" id="city" class="cities">
+            <option disabled>Выберите город:</option>
+        </select>
+    </label><br>
+
+    <label for="text">
+        Ваше сообщение:<br>
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+    </label><br>
+
+    <button id="checkButton">Отправить</button>
+    <button type="reset" class="reset">Сбросить</button>
+
+
+</form>
+<script src="Lesson%206%20-%20task%201,2.js">
+
+</script>
+
+
+</body>
+</html>
